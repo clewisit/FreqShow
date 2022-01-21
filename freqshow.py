@@ -36,7 +36,7 @@ import ui
 SDR_SAMPLE_SIZE = 1024	# Number of samples to grab from the radio.  Should be
 						# larger than the maximum display width.
 
-CLICK_DEBOUNCE  = 0.4	# Number of seconds to wait between clicks events. Set
+CLICK_DEBOUNCE  = 0.25	# Number of seconds to wait between clicks events. Set
 						# to a few hunded milliseconds to prevent accidental
 						# double clicks from hard screen presses.
 
